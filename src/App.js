@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import store from './store/store'
 
 class App extends Component {
   render () {
@@ -10,4 +12,8 @@ class App extends Component {
   }
 }
 
-export default App
+const mapStateToProps = function (store) {
+  return {
+  }
+}
+export default connect(mapStateToProps)(App)
