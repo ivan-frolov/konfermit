@@ -11,7 +11,7 @@ export default class Product {
   }
 
   getPrice () {
-    return this._price
+    return this._price || 0
   }
 
   getTitle () {
