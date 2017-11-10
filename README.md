@@ -28,3 +28,9 @@ all business logic inside, more over the discount should be calculated at
 backend side (especially to not show the logic of work on client side and to not
 implement it twice) this why it's good place to put all related ajax here.
 
+The React with Redux can help in this test work, more over this task is preferably
+done fully on this framework, but I use it as presenter of main module not more.
+It can looks strange, but this approach was chosen specially to show the ability
+to write on pure js and solve programming tasks.
+
+To run project u can: npm i && npm run start
